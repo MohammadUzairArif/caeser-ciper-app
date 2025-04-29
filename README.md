@@ -1,12 +1,13 @@
-# React + Vite
+A simple encryption-decryption tool built in React with Tailwind CSS, demonstrating the classic Caesar Cipher technique.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔑 Key Features:
 
-Currently, two official plugins are available:
+Encrypt and decrypt messages using a fixed Caesar shift.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clean, responsive UI using Tailwind CSS.
 
-## Expanding the ESLint configuration
+Built fully in React with a functional component.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Default shift key can be modified in code (key = 3 by default).
+
+Ideal for learning how substitution ciphers work using modern web development tools.
